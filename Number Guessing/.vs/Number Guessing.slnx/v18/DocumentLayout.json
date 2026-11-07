@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ghost\\Desktop\\GitHub\\Number Guessing\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7015E29E-3981-42CA-8FA8-4D279EA750D5}|Number Guessing\\Number Guessing.vcxproj|C:\\Users\\Ghost\\Desktop\\GitHub\\Number Guessing\\Number Guessing\\Number Guessing.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7015E29E-3981-42CA-8FA8-4D279EA750D5}|Number Guessing\\Number Guessing.vcxproj|solutionrelative:Number Guessing\\Number Guessing.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Number Guessing.cpp",
+              "DocumentMoniker": "C:\\Users\\Ghost\\Desktop\\GitHub\\Number Guessing\\Number Guessing\\Number Guessing.cpp",
+              "RelativeDocumentMoniker": "Number Guessing\\Number Guessing.cpp",
+              "ToolTip": "C:\\Users\\Ghost\\Desktop\\GitHub\\Number Guessing\\Number Guessing\\Number Guessing.cpp",
+              "RelativeToolTip": "Number Guessing\\Number Guessing.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-11-07T00:35:54.867Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
