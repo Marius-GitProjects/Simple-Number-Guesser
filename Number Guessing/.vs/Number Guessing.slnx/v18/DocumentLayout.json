@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Ghost\\Desktop\\GitHub\\Number Guessing\\",
+  "WorkspaceRootPath": "C:\\Users\\Ghost\\Desktop\\Git\\Simple-Number-Guesser\\Number Guessing\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7015E29E-3981-42CA-8FA8-4D279EA750D5}|Number Guessing\\Number Guessing.vcxproj|C:\\Users\\Ghost\\Desktop\\GitHub\\Number Guessing\\Number Guessing\\Number Guessing.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{7015E29E-3981-42CA-8FA8-4D279EA750D5}|Number Guessing\\Number Guessing.vcxproj|C:\\Users\\Ghost\\Desktop\\Git\\Simple-Number-Guesser\\Number Guessing\\Number Guessing\\Number Guessing.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7015E29E-3981-42CA-8FA8-4D279EA750D5}|Number Guessing\\Number Guessing.vcxproj|solutionrelative:Number Guessing\\Number Guessing.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -18,17 +18,17 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Number Guessing.cpp",
-              "DocumentMoniker": "C:\\Users\\Ghost\\Desktop\\GitHub\\Number Guessing\\Number Guessing\\Number Guessing.cpp",
+              "DocumentMoniker": "C:\\Users\\Ghost\\Desktop\\Git\\Simple-Number-Guesser\\Number Guessing\\Number Guessing\\Number Guessing.cpp",
               "RelativeDocumentMoniker": "Number Guessing\\Number Guessing.cpp",
-              "ToolTip": "C:\\Users\\Ghost\\Desktop\\GitHub\\Number Guessing\\Number Guessing\\Number Guessing.cpp",
+              "ToolTip": "C:\\Users\\Ghost\\Desktop\\Git\\Simple-Number-Guesser\\Number Guessing\\Number Guessing\\Number Guessing.cpp",
               "RelativeToolTip": "Number Guessing\\Number Guessing.cpp",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-11-07T00:35:54.867Z",
               "EditorCaption": ""

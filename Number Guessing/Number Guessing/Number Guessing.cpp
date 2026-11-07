@@ -1,17 +1,21 @@
 #include <iostream>
 #include <cstdlib>
+#include <limits>
+#include <string>
+#include <ctime>
 
 using namespace std;
 
 int main()
 {
+    // Get a different random number each time the program runs
+    srand(time(0));
+
     while (true)
     {
-        // Get a different random number each time the program runs
-        srand(time(0));
 
         // Generate a random number between 0 and 100
-        int randomNum = rand() % 2;
+        int randomNum = rand() % 101;
 
         int attemptsMax = 0;
 
@@ -46,6 +50,9 @@ int main()
 
             }
 
+            cin.clear();
+            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
             cout << "Please enter 1,2 or 3: " << endl;
 
         }
@@ -55,7 +62,14 @@ int main()
 
         while (guess != randomNum)
         {
-            cin >> guess;
+            if (!(cin >> guess) || guess < 1 || guess > 100)
+            {
+                cin.clear();
+                cin.ignore(numeric_limits<streamsize>::max(), '\n');
+                cout << "Please enter a number between 1 and 100: ";
+                continue;
+            }
+            attempts++;
 
             if (guess == randomNum)
             {
@@ -67,9 +81,18 @@ int main()
                 break;
             }
 
-            attempts++;
-            cout << "Try Again: ";
+            if (guess < randomNum)
+            {
+                cout << "Too low, try again: ";
+            }
+            else if (guess > randomNum)
+            {
+                cout << "Too high, try again: ";
+            }
 
+            
+
+            
         }
 
         if (guess == randomNum)
@@ -78,7 +101,7 @@ int main()
         }
         else
         {
-            cout << "Better luck next time \n";
+            cout << "Better luck next time, the number was " << randomNum << "\n";
         }
 
         cout << "Would you like to play again? Y/N:";
@@ -89,12 +112,12 @@ int main()
 
             if (choice == "Y" || choice == "y")
             {
-                "\n";
+                cout << "\n";
                 break;
             }
             else if (choice == "N" || choice == "n")
             {
-                "Goodbye";
+                cout << "Goodbye";
                 exit(0);
             }
             else
